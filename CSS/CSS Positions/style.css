@@ -1,0 +1,61 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+
+div {
+  border: 2px solid blue;
+  position: relative;
+  height: 100vh;
+  background-color: brown;
+}
+
+.secondImg {
+  /* position: static;
+  top: 200px;
+  left: 200px;
+  right: 200px;
+  bottom: 200px; */
+
+  /* position: relative; */
+  /* left: -30px;
+  top: -100px; */
+
+  /* left: 500px; */
+
+  /* position: absolute; */
+  /* top: 40px; */
+  /* left: 10px; */
+  /* right: 10px;
+  bottom: 100px; */
+}
+
+.secondBox {
+  height: 100vh;
+  border: 2px solid red;
+  background-color: lightseagreen;
+}
+
+.thirdImg {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  position: relative;
+}
+
+.secondImg {
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,23 @@
+/* div {
+  height: 500px;
+  width: 500px;
+  background-color: crimson;
+}
+
+.box {
+  height: 30vh;
+  width: 30vw;
+  background-color: cornflowerblue;
+} */
+
+.parent {
+  font-size: 20px;
+}
+
+.chhotuPara {
+  font-size: 2em;
+}
+
+#myPara {
+  font-size: 2rem;
+}

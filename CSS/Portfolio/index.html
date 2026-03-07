@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Basic Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Filled Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css"
+      rel="stylesheet"
+    />
+    <!-- Brand Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+      integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Kumar</div>
+      <div class="navlists">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="btn">
+        <button>Download CV <i class="bx bx-save"></i></button>
+      </div>
+    </nav>
+
+    <section id="homepage">
+      <section class="firstHome">
+        <span>Shanu Kumar</span>
+
+        <h1>
+          I'm <br />
+          <span id="careers"></span>
+        </h1>
+
+        <p>
+          Experienced frontend developer with a passion for creating visually
+          stunning and user-friendly websites.
+        </p>
+        <div class="btnBox">
+          <button class="firstBtn">Hire Me</button>
+          <button class="secondBtn">
+            Download CV <i class="bx bx-save"></i>
+          </button>
+        </div>
+
+        <div class="iconBox">
+          <div class="insta"><i class="bxl bx-instagram"></i></div>
+          <div class="linkedIn"><i class="bxl bx-linkedin"></i></div>
+          <div class="dribble"><i class="bxl bx-dribbble"></i></div>
+          <div class="github"><i class="bxl bx-github"></i></div>
+        </div>
+      </section>
+      <section class="secondHome">
+        <div class="img"></div>
+      </section>
+    </section>
+  </body>
+  <script>
+    var typed2 = new Typed("#careers", {
+      strings: ["A Software Developer", "A Graphic Designer"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      fadeOut: false,
+      loop: true,
+    });
+  </script>
+</html>

@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+}
+
+.main > div {
+  height: 150px;
+  width: 150px;
+  /* background-color: yellow; */
+}
+
+.firstBox {
+  background-color: blue;
+  position: relative;
+}
+
+.secondBox {
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.thirdBox {
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.fourthBox {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.firstMini {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+  border-radius: 100%;
+}
+
+.secondMini {
+  height: 40px;
+  width: 40px;
+  background-color: aqua;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}

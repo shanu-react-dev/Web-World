@@ -1,0 +1,41 @@
+.parent {
+  height: 100vh;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  gap: 50px;
+  /* align-items: center; */
+  align-items: end;
+}
+
+.firstBox {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+
+.secondBox {
+  height: 200px;
+  width: 200px;
+  /* position: absolute; */
+  /* top: 0;
+  left: 200px; */
+  background-color: yellowgreen;
+}
+
+.thirdBox {
+  height: 200px;
+  width: 200px;
+  /* position: absolute; */
+  /* top: 0;
+  left: 400px; */
+  background-color: aquamarine;
+}
+.fourthBox {
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
+}

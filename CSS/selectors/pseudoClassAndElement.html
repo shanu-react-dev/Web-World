@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1:hover {
+        color: fuchsia;
+      }
+      button {
+        background-color: red;
+      }
+      button:hover {
+        background-color: black;
+        color: white;
+      }
+
+      input:focus {
+        background-color: pink;
+        color: white;
+        /* color: pink; */
+      }
+
+      h1:active {
+        color: fuchsia;
+        background-color: ghostwhite;
+      }
+
+      ul li:first-child {
+        color: red;
+      }
+
+      ul li:last-child {
+        color: blueviolet;
+      }
+
+      ul li:nth-child(6) {
+        color: cornflowerblue;
+      }
+
+      ul li:nth-child(even) {
+        color: cadetblue;
+      }
+      ul li:nth-child(odd) {
+        color: hotpink;
+      }
+
+      #firstPara {
+        color: darkcyan;
+      }
+
+      #firstPara::first-letter {
+        color: crimson;
+        font-size: 100px;
+      }
+
+      ol li::marker {
+        content: "😝";
+      }
+
+      #secPara::after {
+        content: "💕💕";
+      }
+      #secPara::before {
+        content: "My dodge Challenger Hellcat Redeye SRT is more dangerous than Ford mustang.....";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Class and Pseudo Element Selector</h1>
+    <button>My Dodge Button</button>
+    <label for="username">Username</label>
+    <input type="text" id="username" />
+
+    <ul>
+      <li>Jon Snow</li>
+      <li>Khaleesi</li>
+      <li>Sansa</li>
+      <li>Jamey</li>
+      <li>Tyrion</li>
+      <li>Arya</li>
+      <li>Sersi</li>
+      <li>Ramsey</li>
+      <li>Bolton</li>
+      <li>Greyjoy</li>
+    </ul>
+
+    <p id="firstPara">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ducimus
+      sapiente. Illo deserunt perspiciatis blanditiis cumque vero et ducimus
+      repudiandae nobis enim inventore, molestiae eaque reiciendis alias eveniet
+      ipsa est aliquid excepturi voluptatibus voluptas facilis consequuntur
+      adipisci! Illum dolor aut nemo dolorum harum ipsam accusamus doloremque
+      error facilis quidem, maiores perferendis vel vero quas excepturi nam
+      ratione cum, neque sed facere. Perspiciatis accusamus nesciunt fugit
+      molestias, reprehenderit accusantium repellendus, eius possimus vel
+      debitis sequi rem ut optio dolores alias adipisci harum tenetur minima
+      cupiditate at, asperiores quos rerum autem modi. Consectetur reiciendis
+      velit quibusdam deleniti, atque illo voluptas id vitae.
+    </p>
+
+    <ol>
+      <li>Sailaja</li>
+      <li>Leela</li>
+      <li>Mala</li>
+      <li>Shakeela</li>
+    </ol>
+
+    <p id="secPara">
+      I am Shanu from Delhi. I love Coding as well as web Development. Currently
+      I am having skills in HTML, CSS, JS, React, Angular, Node, Mongo,
+      Express..
+    </p>
+  </body>
+</html>

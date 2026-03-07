@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .main {
+        height: 100vh;
+        width: 100%;
+        /* background-color: lightseagreen; */
+      }
+
+      .firstrow {
+        height: 70px;
+        width: 100%;
+        background-color: yellow;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px black;
+      }
+
+      .secondrow {
+        height: calc(100vh - 68px - 68px);
+        width: 100%;
+        position: relative;
+
+        /* background-color: blue; */
+      }
+
+      .secondrow > .firstBox {
+        height: 100%;
+        width: 20%;
+        border-radius: 20px;
+        background-color: blueviolet;
+      }
+
+      .secondrow > .secondBox {
+        height: 100%;
+        width: 60%;
+        background-color: brown;
+        position: absolute;
+        top: 0;
+        border-radius: 20px;
+        left: 20%;
+      }
+
+      .secondrow > .thirdBox {
+        height: 100%;
+        width: 20%;
+        background-color: pink;
+        position: absolute;
+        top: 0;
+        border-radius: 20px;
+        right: 0;
+      }
+
+      .thirdrow {
+        height: 68px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="firstrow"></div>
+
+      <div class="secondrow">
+        <div class="firstBox"></div>
+        <div class="secondBox"></div>
+        <div class="thirdBox"></div>
+      </div>
+
+      <div class="thirdrow"></div>
+    </div>
+  </body>
+</html>

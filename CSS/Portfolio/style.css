@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 68px;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  background-color: #e2dfd2;
+  box-shadow: 2px 2px 10px rgb(191, 188, 188);
+}
+
+.logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  /* background-color: lightblue; */
+}
+
+.navlists {
+  height: 100%;
+  width: 40%;
+  /* background-color: lightcyan; */
+}
+
+.navlists > ul {
+  height: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+
+.btn {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: bisque; */
+}
+
+.btn > button {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+/*! Home Page starts here  */
+#homepage {
+  height: calc(100vh - 68px);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+
+.firstHome {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 50px;
+  /* background-color: lightsalmon; */
+}
+
+.firstHome > span {
+  font-size: 18px;
+  background-color: yellow;
+  width: fit-content;
+  padding: 2px 5px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.firstHome > h1 {
+  font-size: 47px;
+}
+
+.firstHome > p {
+  font-size: 18px;
+}
+
+.btnBox {
+  display: flex;
+  gap: 20px;
+}
+.firstHome > .btnBox > button {
+  padding: 10px 20px;
+}
+
+.iconBox {
+  display: flex;
+  gap: 10px;
+}
+
+.iconBox > div {
+  height: 40px;
+  width: 40px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+.secondHome {
+  height: 80%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+.secondHome > .img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-image: url("https://cdn.pixabay.com/photo/2025/09/24/18/09/golden-retriever-puppy-amber-9853499_1280.jpg");
+  background-size: cover;
+  background-color: red;
+}

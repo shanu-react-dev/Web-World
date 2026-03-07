@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        placeholder="Enter your username"
+        id="username"
+        name="username"
+        required
+        minlength="3"
+        maxlength="10"
+      />
+      <br /><br />
+
+      <label for="password">ENter Password</label>
+      <input
+        type="password"
+        placeholder="ENter Password"
+        id="password"
+        name="password"
+        pattern="[A-Za-z0-9]{8}"
+      />
+      <br /><br />
+
+      <label for="mailId">Enter Email</label>
+      <input
+        type="email"
+        placeholder="Enter Mail ID"
+        id="mailId"
+        name="mailId"
+      />
+      <!--! What is the difference between placeholder and label??  -->
+
+      <br /><br />
+      <label for="dob">Enter your Date of Birth</label>
+      <input
+        type="date"
+        name="dob"
+        id="dob"
+        min="2000-01-01"
+        max="2002-12-31"
+        required
+      />
+
+      <br /><br />
+      <label for="engDate">Engagement Date</label>
+      <input type="datetime" name="engDate" id="engDate" />
+
+      <br /><br />
+      <label for="engDate">Engagement Date</label>
+      <input type="datetime-local" name="engDate" id="engDate" />
+
+      <br /><br />
+      <label for="Gender">Select Gender</label>
+
+      <input type="radio" id="male" name="gender" value="male" checked />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">female</label>
+      <input type="radio" id="others" name="gender" value="others" />
+      <label for="others">others</label>
+
+      <br /><br />
+      <label for="skills">Select your skills</label>
+
+      <input type="checkbox" name="skills" id="html" value="html" checked />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="skills" id="css" value="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="skills" id="js" value="js" />
+      <label for="js">JS</label>
+      <input type="checkbox" name="skills" id="java" value="java" />
+      <label for="java">Java</label>
+      <input type="checkbox" name="skills" id="python" value="python" />
+      <label for="python">Python</label>
+
+      <br /><br />
+      <label for="img">Upload your image</label>
+      <input type="file" name="img" accept=".png" />
+
+      <br /><br />
+      <label for="country">Select your Country</label>
+      <select name="country" id="country" multiple>
+        <option value="India">India</option>
+        <option value="US">US</option>
+        <option value="pakistan">pakistan</option>
+      </select>
+
+      <br /><br />
+      <label for="">Choose your favourite color</label>
+      <input type="color" name="color" />
+
+      <br /><br />
+      <!-- <input type="month" name="" id="" /> -->
+      <label for="age">Enter age</label>
+      <input type="number" name="age" id="age" min="18" max="30" />
+
+      <label for="aadhaar">Aadhaar card</label>
+      <input
+        type="text"
+        id="aadhaar"
+        placeholder="aadhaar"
+        name="aadhaar"
+        value="123456789012"
+        readonly
+      />
+
+      <br /><br />
+      <label for="contact">Enter your contact</label>
+      <input type="tel" name="contact" id="contact" />
+      <button>Login</button>
+    </form>
+  </body>
+</html>

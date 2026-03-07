@@ -1,0 +1,21 @@
+div {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: yellowgreen;
+  animation-name: moveBox;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes moveBox {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: calc(100% - 100px);
+  }
+}

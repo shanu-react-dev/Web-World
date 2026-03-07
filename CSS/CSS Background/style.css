@@ -1,0 +1,19 @@
+div {
+  height: 500px;
+  width: 500px;
+  border: 2px solid red;
+  /* background-color: lightseagreen;
+  background: linear-gradient(to top right, #1a1a1a, #2bab2b, #2f3f4f); */
+  /* background: radial-gradient(at top right, #e0bd49ad 40%, #cf328591); */
+  /* background: conic-gradient(red, green, blue); */
+  /* background-image: url("https://imgs.search.brave.com/LvxAyKQZ0n-M_vPKzOcvpo8-01Ols0rujgLlii1jOf4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/MjIwMzY5NC9waG90/by9mcm9udC1kb2Rn/ZS1jaGFyZ2VyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz10/ZW1WWnpON3JYS3ZL/V2pncmVzVEt3TXJN/VWpwZHFDWTl3UFFn/Q1cxX3ZVPQ"); */
+  /* background-size: 100px 100px; */
+  /* background-repeat: repeat-y; */
+  /* background-size: auto; */
+  /* background-size: contain; */
+  /* background-size: cover;
+  border-radius: 50%;
+  background-position: -200px;
+  background-repeat: no-repeat; */
+  background: linear-gradient(190deg, #1a11ab, #524ac74a);
+}
