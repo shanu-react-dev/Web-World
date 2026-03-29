@@ -75,12 +75,25 @@ let b = 10 //11
 // console.log(expr)
 //todo 6. Ternary Operators
 //? Ternary Operators are also considered as conditional Operator and it shows or returns the output based on certain condtions
-let myName = "Shanu"
-myName === "Shan" ? console.log("I am Shanu") : console.log("I am not Shanu")
+// let myName = "Shanu"
+// myName === "Shan" ? console.log("I am Shanu") : console.log("I am not Shanu")
 
-let number = 19
-number % 2 === 0 ? console.log("The given number is even") : console.log("The given number is odd")
+// let number = 19
+// number % 2 === 0 ? console.log("The given number is even") : console.log("The given number is odd")
 // Prime Number
 //? A number which is divisible by one and itself apart from any other numbers is known as Prime Number.
 //e.g. 7 :- 1, 7
 //e.g. 10:- 1, 2, 5, 10
+
+let num1 = 8
+let num2 = 10
+
+// let expr = num1++ + ++num2 - ++num1 + num2++ + num2
+
+let expr = ++num1 + ++num2 - num1 - num2 + ++num2
+console.log(expr)
+
+let num3 = "7"
+let num4 = 2
+let res = num3++ - num4++ + num3--
+console.log(res)
