@@ -8,40 +8,61 @@
 //! 3 Local or Function scope
 //? Any variables created using any keyword such as var, let or const inside a function can be accessed inside the function itself. It can't be accessed outside of the functions.
 
-console.log(a);
-var a = 10;
-console.log(a);
+// console.log(a);
+// var a = 10;
+// console.log(a);
 
 //! We can't access the variable created using let and const before its initialization.
 //? The Temporal Dead Zone refers to the period between the entering of a scope and the actual declaration of a variable using let or const. During this period, the variable is in an "uninitialized" state and accessing it will result in a ReferenceError.
+// // console.log(b);
+// let b = 100;
 // console.log(b);
-let b = 100;
-console.log(b);
-const c = 1000;
-console.log(c);
+// const c = 1000;
+// console.log(c);
 
-if (true) {
-  var a = "Shanu";
-  console.log(a); //Shanu
-  let b = "Dodge";
-  console.log(b);
-  const c = "BMW M4";
-  console.log(c);
-}
-console.log(a); //Shanu
-console.log(b); //100
-console.log(c); //1000
+// if (true) {
+//   var a = "Shanu";
+//   console.log(a); //Shanu
+//   let b = "Dodge";
+//   console.log(b);
+//   const c = "BMW M4";
+//   console.log(c);
+// }
+// console.log(a); //Shanu
+// console.log(b); //100
+// console.log(c); //1000
 
-function demo() {
-  var a = "Sunflower";
-  console.log(a); //Sunflower
-  let b = "Dodge";
-  console.log(b); //Dodge
-  const c = "BMW M4";
-  console.log(c); //BMW M4
-}
-demo();
+// function demo() {
+//   var a = "Sunflower";
+//   console.log(a); //Sunflower
+//   let b = "Dodge";
+//   console.log(b); //Dodge
+//   const c = "BMW M4";
+//   console.log(c); //BMW M4
+// }
+// demo();
 
-console.log(a); //Shanu
-console.log(b); //100
-console.log(c); //1000
+// console.log(a); //Shanu
+// console.log(b); //100
+// console.log(c); //1000
+
+// let a = "Shanu";
+// console.log(a);
+// function greet() {
+//   let wish = "Good Morning";
+//   console.log(`${a}, ${wish}`);
+// }
+// greet();
+
+// function Parent() {
+//   let amount = 100000;
+//   console.log(amount);
+//   function Child() {
+//     let receivedAmt = amount;
+//     console.log(receivedAmt);
+//   }
+//   return Child;
+// }
+// let retFun = Parent();
+// console.log(retFun);
+// retFun();
